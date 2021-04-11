@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* reset */
+* {margin: 0; padding: 0;}
+body {background: #ddd;}
+ul, li {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none;}
+
+#warp {width: 1200px; margin: 0 auto;}
+
+/* header */
+#warp header {height: 120px; background: #fff;}
+
+/* header - logo */
+#warp header .logo {width: 300px; height: 120px; float: left;}
+#warp header .logo a{
+    font-size: 30px;
+    line-height: 120px;
+    color: #000;
+}
+#warp header .logo a:hover {opacity: 0.5;}
+
+/* header - menu */
+#warp header .menu {width: 900px; height: 120px; float: left;}
+#warp header .menu ul {float: right;}
+#warp header .menu ul li {float: left; margin-left: 40px; height: 120px; line-height: 120px;}
+#warp header .menu ul li a {color: #000; font-size: 20px; font-weight: bold;}
+#warp header .menu ul li a:hover {
+    color: #999;
+    border-bottom: 2px solid #999;
+    padding-bottom: 5px;
+}
+
+/* contents */
+#warp section {height: 500px; background: #fff;}
+#warp section .photo {height: 500px; width: 350px; float: left;}
+#warp section .desc {height: 500px; width: 850px; float: left;}
+
+#warp footer {font-weight: lighter;}
